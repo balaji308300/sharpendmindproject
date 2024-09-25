@@ -1,0 +1,45 @@
+git is version control system
+git is help us to put a project in a repository
+git repository may be a public or private
+git public repository has been used as public
+git private repository cannot access by all
+git is used to go previous state
+
+
+using visual code to push file in git
+
+config username
+
+git config --global user.name "balaji308300"
+
+config email
+
+git config --global user.email "balaji6514@gmail.com"
+
+to see config list
+
+git config --list
+
+intialize git
+
+git init
+
+add file to git using add commang
+
+git add git2.txt
+
+git commit file
+
+git commit -m "commitfile"
+
+add git remote 
+
+git remote add origin https://github.com/balaji308300/sharpendmindproject.git
+
+to push git file
+
+git push origin main
+
+to pull git file 
+
+git pull link
