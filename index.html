@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
 </head>
 <style>
 	.side
@@ -242,6 +243,11 @@ transform: scale(2);
 border: 2px solid wheat;
 color:#fff;
 }
+.ar{
+	position: fixed;
+	margin-left: 1200px;
+}
+
 	.hello
 	{
 		font-size:180px;	
@@ -571,11 +577,16 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	height:20px;width:20px;position:absolute;margin-top:-200px;margin-left:940px;color:black;text-decoration: none;font-size:18px
 }
 
-@media screen and  (min-width: 1700px)  and (max-width: 2000px){
+@media screen and  (min-width: 1600px)  and (max-width:1780px){
+	.ar{
+	position: fixed;
+	margin-left: 1200px;
+}
+
 	.side
 	{
-		position: fixed;
-        height: 920px;
+		position:absolute;
+        height: 980px;
         width: 230px;
  		border: 2px solid #a0a0a0;
  		background-color:#ce2500;
@@ -604,9 +615,9 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	}
 	.hello1
 	{
-		margin-left:1200px;
+		margin-left:1080px;
         position: absolute;
-        margin-top:450px;
+        margin-top:300px;
         font-family:serif;
         font-size:180px;
         font-weight: bold;
@@ -623,50 +634,34 @@ body.dark #but1,body.dark .support a {color: #fff;}
 }
 .name
 	{
-		margin-left:42%;
-		margin-top: 80px;
+		margin-left:58%;
+		margin-top: 120px;
 		font-weight: bold;
 		font-size:28px;
 		color: #ce2500;
 	}
     .desin
 	{
-		margin-left:42%;
+		margin-left:58%;
 		margin-top: 20px;
 		font-weight: bold;
 		font-size:21px;
 		color: #ce2500;	
 	}
   #a1{
-    margin-left:800px;
+    margin-left:750px;
   }
   #but1{
-    font-family: serif;font-size:20px;margin-top:20px;font-weight: bold;background:#ce2300
+    font-family: serif;font-size:20px;margin-top:60px;font-weight: bold;background:#ce2300
   }
     @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-.wrapper{
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 550px;
-  background: #ce2300;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
 #bt1{
-    margin-left: -280px;
+    margin-left: -0px;
+	margin-top: 30px;
   }
 
-.wrapper .title h1{
-  color: #c5ecfd;
-  text-align: center;
-  margin-bottom: 25px;
-}
 
 .contact-form{
   display: flex;
@@ -720,9 +715,162 @@ body.dark #but1,body.dark .support a {color: #fff;}
     cursor: pointer;
     text-transform: uppercase;
 }
+.circle
+	{
+		overflow:hidden;
+		height:850px;
+		width:80%;
+		background-color:white;
+		margin-left: 0%;		
+		
+
+			}
 }
 
+@media screen and  (min-width: 1800px)  and (max-width:2000px){
+	.side
+	{
+		position:absolute;
+        height: 920px;
+        width: 230px;
+ 		border: 2px solid #a0a0a0;
+ 		background-color:#ce2500;
+	}
 
+    .side li
+	{		
+		margin-top: 65%;
+		color: white;
+        padding-right: 35px;
+        list-style: none;
+		font-size:23px;
+        text-align: center;
+	}
+    
+	.hello
+	{
+		font-size:180px;	
+		margin-left:350px;
+        position: absolute;
+        margin-top:0px;
+        font-family:serif;
+        font-weight: bold;
+        color:#ce2500;
+        letter-spacing:5px;
+	}
+	.hello1
+	{
+		margin-left:1100px;
+        position: absolute;
+        margin-top:350px;
+        font-family:serif;
+        font-size:180px;
+        font-weight: bold;
+        color:#ce2500;
+        letter-spacing:10px;
+	}
+.ima img{
+    width:20%;
+    height:20%;
+    margin-left:700px;
+    margin-top:120px;
+    border:3px solid #ce2500;
+    border-color:#ce2300;
+}
+.name
+	{
+		margin-left:54%;
+		margin-top: 120px;
+		font-weight: bold;
+		font-size:28px;
+		color: #ce2500;
+	}
+    .desin
+	{
+		margin-left:54%;
+		margin-top: 20px;
+		font-weight: bold;
+		font-size:21px;
+		color: #ce2500;	
+	}
+  #a1{
+    margin-left:800px;
+  }
+  #but1{
+    font-family: serif;font-size:20px;margin-top:60px;font-weight: bold;background:#ce2300
+  }
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+#bt1{
+    margin-left: -50px;
+	margin-top: 30px;
+  }
+
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+.btn {
+    
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.circle
+	{
+		overflow:hidden;
+		height:850px;
+		width:80%;
+		background-color:white;
+		margin-left: 0%;		
+		
+
+			}
+}
 @media screen and (min-width:530px) and (max-width: 600px){
 
 
@@ -744,6 +892,10 @@ body.dark #but1,body.dark .support a {color: #fff;}
 		height: 20px;
 		background: #ce2500;
 		animation: animate 10s linear infinite;
+}
+.ar{
+	position: fixed;
+	margin-left: 500px;
 }
 @keyframes animate
 {
@@ -846,7 +998,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	}
   .side
 	{
-		position: fixed;
+		position: absolute;
         height: 300px;
         width: 100px;
 	}
@@ -897,6 +1049,17 @@ body.dark #but1,body.dark .support a {color: #fff;}
   margin-left: 160px;
 }
 
+.skillhead{
+	margin-top: 100px;
+	font-weight: bold;
+		font-size:14px;
+		color: #ce2500;
+		margin-left: 100px;
+}
+.skillbody{
+	margin-left: 40px;
+	margin-top: 50px;
+}
 
 .internhead{
 	margin-left: 40px;
@@ -1096,6 +1259,18 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	height:20px;width:20px;position:absolute;margin-top:30px;margin-left:100px;color:black;text-decoration: none;font-size:18px
 }
 
+.wrapper{
+  position: absolute;
+  top: 880%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 550px;
+  background: #ce2300;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
 }
 
@@ -1106,7 +1281,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	{
 		overflow:hidden;
 		height:350px;
-		width:80%;
+		width:70%;
 		background-color:white;
 		margin-left: 0%;		
 		
@@ -1248,6 +1423,10 @@ body.dark #but1,body.dark .support a {color: #fff;}
     
 #to{
   margin-left: 20px;
+}
+.ar{
+	position: fixed;
+	margin-left: 300px;
 }
 .ima img{
     width:40%;
@@ -1482,13 +1661,89 @@ body.dark #but1,body.dark .support a {color: #fff;}
     font-weight: bold;
     color:#ce2300;
 }
+.wrapper{
+  position: absolute;
+  top: 880%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: #ce2300;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 }
 @media screen  and (max-width: 320px){
+	.wrapper{
+  position: absolute;
+  top: 880%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: #ce2300;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+	.skillhead{
+	margin-top: 100px;
+	font-weight: bold;
+		font-size:14px;
+		color: #ce2500;
+		margin-left: 100px;
+}
+.skillbody{
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.educationhead{
+	margin-top: 300px;
+	font-weight: bold;
+		font-size:14px;
+		color: #ce2500;
+		margin-left: 100px;
+}
+.styled-table {
+    border-collapse: collapse;
+	margin-left: 40px;
+	margin-top: 100px;
+    font-size: 13px;
+    font-family: sans-serif;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color:#ce2300;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ce2300;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color:#ce2300;
+}
   .circle
 	{
 		overflow:hidden;
 		height:350px;
-		width:80%;
+		width:120%;
 		background-color:white;
 		margin-left: 0%;		
 		
@@ -1521,6 +1776,10 @@ body.dark #but1,body.dark .support a {color: #fff;}
 	width: 80px;
 	height: 80px;	
 	animation-delay: 0s;
+}
+.ar{
+	position: fixed;
+	margin-left: 300px;
 }
 .circle li:nth-child(2){
 	left: 30%;
@@ -1607,7 +1866,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 }
   .side
 	{
-		position: fixed;
+		position: absolute;
         height: 300px;
         width: 100px;
 	}
@@ -1814,6 +2073,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 </style>
 
 <body>
+	
   <div id="to">
     <input type="checkbox" class="checkbox" id="checkbox">
     <label for="checkbox" class="checkbox-label">
@@ -1863,7 +2123,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 		<a href="res.html" id="a1"  target="_blank">
 			<button id = "but1" > View Resume</button></a>
 </div>
-
+<div class="ar"><a href="#to"><i class="fa-sharp fa-solid fa-angle-up fa-2xl" style="color: #ce2300;"></i></a></div>
 <li></li>
 <li></li>
 
@@ -1878,6 +2138,7 @@ body.dark #but1,body.dark .support a {color: #fff;}
 
 <li></li>
 </ul>
+
 <section id="aboutme">
 	<div class="abouthead">
 
